@@ -82,7 +82,7 @@ a:hover {
 
 #contents {
     border: 1px solid yellow;
-    width: 60%;    
+    width: 40%;    
     margin-top: 30px;
     a, a:visited, a:active {
         text-decoration: none;
