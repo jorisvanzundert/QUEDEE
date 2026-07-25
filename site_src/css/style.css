@@ -101,6 +101,12 @@ a:hover {
 }
 
 #page {
-    width:250px;
+    /* width:250px; */
+    font-size: 200%;
+    margin-top: 30px;
 }
 
+#page p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
