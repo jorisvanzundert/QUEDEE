@@ -73,9 +73,15 @@ a:hover {
     font-size: 130%;
 }
 
+#contents-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #contents {
+    width: 50%;
     margin-top: 30px;
-    margin-left: 200px;
     a, a:visited, a:active {
         text-decoration: none;
         color: #2a2838;
