@@ -3,16 +3,19 @@
 <head>
     <title>Welcome!</title>
     <style>
-        .long-tail-q {
-            font-family: 'EB Garamond', serif;
-            
-            /* 1. Use the modern, standard CSS properties first */
-            font-variant-alternates: stylistic(ss06);
-            font-variant-ligatures: contextual;
-
-            /* 2. Low-level fallback overrides for maximum cross-browser compliance */
-            -webkit-font-feature-settings: "ss06" 1, "swsh" 1, "calt" 1;
-            font-feature-settings: "ss06" 1, "swsh" 1, "calt" 1;
+        @font-face {
+            font-family: 'EB Garamond 12';
+            src: url('/fonts/EBGaramond12-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'EB Garamond 12';
+            src: url('/fonts/EBGaramond12-Italic.woff2') format('woff2');
+            font-weight: 400;
+            font-style: italic;
+            font-display: swap;
         }
         body { 
             font-family: "EB Garamond", Garamond, Georgia, serif; 
@@ -77,7 +80,7 @@
         <a id="link-to-contents" href="contents.html">Go to contents</a>
     </div>
     <p id="screenSize"></p>
-    <p class="long-tail-q">This should just be Queen beautiful.</p>
+    <p style=""font-family:'EB Garamond 12'">This should just be Queen beautiful.</p>
     <script>
     window.addEventListener('load', function () {
         document.getElementById('screenSize').textContent =
