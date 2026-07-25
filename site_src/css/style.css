@@ -1,0 +1,86 @@
+@media (min-width: 768px)  { #wrap { zoom: 2.4;  } }
+
+@font-face {
+    font-family: 'EB Garamond 12';
+    src: url('./fonts/EBGaramond12-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond 12';
+    src: url('./fonts/EBGaramond12-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+body { 
+    font-family: "EB Garamond 12", Garamond, Georgia, serif; 
+    padding-top: 20px; 
+    background: #6b649e; 
+    color: #2a2838; 
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #f9b957; 
+}
+
+a:hover {
+    color: #ffe1b3; 
+}
+
+#site-title-container {
+    width: 100%;
+    align-items: center;
+}
+
+#site-title { 
+    font-size: 200%;
+    color: #f9b957; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+#site-subtitle-container {
+    display: flex;
+    justify-content: center;
+}
+
+#site-subtitle {
+    width: 400px;
+    font-size: 130%;
+    color: #f9b957; 
+    margin-top: 10px;
+    text-align: center;
+}
+
+#front_page_image { 
+    width: 300px; 
+    border: 1px solid #2a2838; 
+}
+
+#site-frontpage-image-container, #link-to-contents-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#link-to-contents {
+    font-size: 130%;
+}
+
+#contents {
+    margin-top: 30px;
+    margin-left: 200px;
+    a, a:visited, a:active {
+        text-decoration: none;
+        color: #2a2838;
+    }
+    a:hover {
+        color: #ffe1b3; 
+    }
+}
