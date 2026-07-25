@@ -5,24 +5,28 @@
     <style>
         body { 
             font-family: "EB Garamond, Garamond, Georgia, serif"; 
-            text-align: center; 
             padding-top: 20px; 
             background: #6b649e; 
             color: #2a2838; 
         }
         #site-title-container {
             width: 100%;
+            align-items: center;
         }
         #site-title { 
             font-size: 200%;
             color: #f9b957; 
-            width: 500px;
             margin-top: 30px;
+            text-align: center;
+        }
+        #site-subtitle-container {
+            display: flex;
+            justify-content: center;
         }
         #site-subtitle {
+            width: 400px;
             font-size: 130%;
             color: #f9b957; 
-            width: 400px;
             margin-top: 10px;
             text-align: center;
         }
@@ -30,14 +34,24 @@
             width: 300px; 
             border: 1px solid #2a2838; 
         }
+        #site-frontpage-image-container {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 <body style="border:1px dotted red">
-    <div is="site-title-container">
+    <div id="site-title-container">
         <div id="site-title">QUEDEE</div>
-        <div id="site-subtitle">Quest for Unrelenting Experimentation in the Durability of Electronic Editions</div>
+        <div id="site-subtitle-container">
+            <div id="site-subtitle">Quest for Unrelenting Experimentation in the Durability of Electronic Editions</div>
+        </div>
     </div>
-    <img id="front_page_image" src="./images/psalter_flanders_xiii_century_f61r_miniture_of_reynaert_and_cuwaert.png" alt="Folio 61 recto of a 13th century psalter from Flanders. On the right hand bottom of the page there is a minature of the fox Reynaert who is ‘teaching’ Cuwaert to sing the creed. A double entendre: making some sing the creed means making them have an orgasm."/>
+    <div id="site-frontpage-image-container">
+        <img id="front_page_image" src="./images/psalter_flanders_xiii_century_f61r_miniture_of_reynaert_and_cuwaert.png" alt="Folio 61 recto of a 13th century psalter from Flanders. On the right hand bottom of the page there is a minature of the fox Reynaert who is ‘teaching’ Cuwaert to sing the creed. A double entendre: making some sing the creed means making them have an orgasm."/>
+    </div>
     <p id="screenSize"></p>
     <script>
     window.addEventListener('load', function () {
