@@ -92,3 +92,15 @@ a:hover {
         color: #ffe1b3; 
     }
 }
+
+#page-container {
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    width:250px;
+}
+
