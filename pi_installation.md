@@ -202,4 +202,8 @@ NB: The first run resulted in Chromium wanting to create a new keyring. I entere
 To kill the kiosk mode, it's probably best to ssh in and `pkill chromium`.
 
 
+## Additional installs during web building
+
+``sudo apt install fonts-ebgaramond``
+
 --
