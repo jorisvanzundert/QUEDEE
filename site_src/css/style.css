@@ -74,13 +74,15 @@ a:hover {
 }
 
 #contents-container {
+    border: 1px solid green;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 #contents {
-    width: 40%;
+    border: 1px solid yellow;
+    width: 40%;    
     margin-top: 30px;
     a, a:visited, a:active {
         text-decoration: none;
