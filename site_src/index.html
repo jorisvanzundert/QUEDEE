@@ -3,6 +3,9 @@
 <head>
     <title>Welcome!</title>
     <style>
+        @media (min-width: 375px)  { #wrap { zoom: 1.17; } }
+        @media (min-width: 414px)  { #wrap { zoom: 1.29; } }
+        @media (min-width: 768px)  { #wrap { zoom: 2.4;  } }
         @font-face {
             font-family: 'EB Garamond 12';
             src: url('./fonts/EBGaramond12-Regular.woff2') format('woff2');
@@ -67,6 +70,7 @@
     </style>
 </head>
 <body style="border:1px dotted red">
+    <div id="wrap">
     <div id="site-title-container">
         <div id="site-title">QUEDEE</div>
         <div id="site-subtitle-container">
@@ -87,5 +91,6 @@
         window.innerWidth + ' x ' + window.innerHeight;
     });
     </script>
-    </body>
+    </div>
+</body>
 </html>
