@@ -74,14 +74,14 @@ a:hover {
 }
 
 #contents-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 #contents {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 200px;    
     margin-top: 30px;
     a, a:visited, a:active {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #page-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 #pager-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -121,4 +121,8 @@ a:hover {
 
 #pager {
     font-size: 200%;
+}
+
+#home-button {
+    font-size: 250%;
 }
