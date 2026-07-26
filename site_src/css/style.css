@@ -110,3 +110,14 @@ a:hover {
     margin-top: 0;
     margin-bottom: 5px;
 }
+
+#pager-container {
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#pager {
+    font-size: 200%;
+}
